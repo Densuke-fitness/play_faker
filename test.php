@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', "On");
  
-require_once 'vendor/fzaninotto/faker/src/autoload.php';
+require_once 'vendor/fakerphp/faker/src/autoload.php';
  
 $faker = Faker\Factory::create('ja_JP');
 //フェイクデーター作成
